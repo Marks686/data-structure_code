@@ -1,4 +1,0 @@
-﻿  test.c
-D:\代码\data structure_code\data-structure_code\test_8.22\test_8.22\test.c(28,7): warning C4013: “SLInt”未定义；假设外部返回 int
-D:\代码\data structure_code\data-structure_code\test_8.22\test_8.22\test.c(38,14): warning C4013: “TestSeqList1”未定义；假设外部返回 int
-D:\代码\data structure_code\data-structure_code\test_8.22\test_8.22\test.c(28): error C4700: 使用了未初始化的局部变量“sl”
