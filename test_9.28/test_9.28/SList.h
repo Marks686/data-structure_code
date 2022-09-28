@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-typedef int SLTDataType; 
+typedef int SLTDataType;
 typedef struct SListNode
 {
 	SLTDataType data;
@@ -21,6 +21,6 @@ void SListPushBack(SLTNode** pphead, SLTDataType x);
 
 void SListPushFront(SLTNode** pphead, SLTDataType x);
 
-void SListPopBack(SLTNode**  pphead);
+void SListPopBack(SLTNode** pphead);
 
 void SListPopFront(SLTNode** pphead);

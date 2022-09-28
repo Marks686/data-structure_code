@@ -25,7 +25,7 @@ void TestSList1()
 	SListPrint(plist);
 
 	printf("\n");
-} 
+}
 
 
 void TestSList2()

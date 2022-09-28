@@ -1,5 +1,4 @@
 #define _CRT_SECURE_NO_WARNINGS
-
 #include"SList.h"
 
 void SListPrint(SLTNode* phead)
@@ -52,7 +51,7 @@ void SListPushBack(SLTNode** pphead, SLTDataType x)
 	{
 		//урн╡
 		SLTNode* tail = *pphead;
-		while(tail->next != NULL)
+		while (tail->next != NULL)
 		{
 			tail = tail->next;
 		}
