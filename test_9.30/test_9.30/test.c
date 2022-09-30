@@ -1,4 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
+
+
 #include"SList.h"
 
 void SListPrint(SLTNode* phead)
@@ -155,7 +157,7 @@ void SListInsetrt(SLTNode** pphead, SLTNode* pos, SLTDataType x)
 	SLTNode* prev = *pphead;
 	while (prev->next != pos)
 	{
-		prev = prev->next; 
+		prev = prev->next;
 	}
 
 	SLTNode* newnode = BuySLTNode(x);

@@ -63,7 +63,31 @@ void TestSList3()
 	SListPushBack(&plist, 4);
 	SListPrint(plist);
 
-	SListDestory(plist);
+	SLTNode* pos = SListFind(plist, 3);
+	if (pos)
+	{
+		//修改
+		pos->data *= 10;
+		printf("找到了\n");
+
+	}
+	else
+	{
+		printf("没有找到\n");
+	}
+	
+
+	SListPrint(plist);
+
+	SLTNode* pos = SListFind(plist, 2);
+	if (pos)
+	{
+		SListInsert(&plist, pos, 20);
+	}
+	SListPrint(plist);
+
+
+	SListDestory(&plist);
 }
 int main()
 {

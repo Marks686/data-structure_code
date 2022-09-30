@@ -24,3 +24,14 @@ void SListPushFront(SLTNode** pphead, SLTDataType x);
 void SListPopBack(SLTNode** pphead);
 
 void SListPopFront(SLTNode** pphead);
+
+SLTNode* SListFind(SLTNode* phead, SLTDataType x); 
+
+//在pos之前插入
+void SListInsetrt(SLTNode** pphead,SLTNode* pos,SLTDataType x);
+
+//删除pos位置
+void SListErase(SLTNode** pphead, SLTNode* pos);
+
+
+
