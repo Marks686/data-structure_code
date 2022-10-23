@@ -203,3 +203,25 @@ void SListInsertAfter(SLTNode* pos, SLTDateType x)
 	newnode->next = pos->next;
 	pos->next = newnode;
 }
+
+void SListErase(SLTNode** pphead, SLTNode* pos)
+{
+	assert(pphead);
+	assert(pos);
+	if (*pphead == pos)
+	{
+		SListPopFront(pphead);
+	}
+	else
+	{
+		SLTNode* prev = *pphead;
+		while (prev->next != pos)
+		{
+			prev = prev->next;
+			assert(prev);
+		}
+		prev->next = pos->next;
+		free(pos);
+		pos = NULL;
+	}
+}

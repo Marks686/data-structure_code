@@ -30,4 +30,4 @@ void SListInsert(SLTNode** pphead, SLTNode* pos, SLTDateType x);
 //在pos之后插入
 void SListInsertAfter(SLTNode* pos, SLTDateType x);
 //某个位置去删除---- 删除pos
-void SListErase(SLTNode* pphead);
+void SListErase(SLTNode** pphead, SLTNode* pos);
