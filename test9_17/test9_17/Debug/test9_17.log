@@ -1,0 +1,7 @@
+﻿  SeqList.c
+D:\代码\data structure_code\data-structure_code\test9_17\test9_17\SeqList.c(140,2): warning C4018: “<=”: 有符号/无符号不匹配
+D:\代码\data structure_code\data-structure_code\test9_17\test9_17\SeqList.c(167,2): warning C4018: “<”: 有符号/无符号不匹配
+D:\代码\data structure_code\data-structure_code\test9_17\test9_17\SeqList.c(170,15): warning C4018: “<”: 有符号/无符号不匹配
+  test.c
+  正在生成代码...
+  test9_17.vcxproj -> D:\代码\data structure_code\data-structure_code\test9_17\Debug\test9_17.exe
