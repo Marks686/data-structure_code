@@ -1,7 +1,0 @@
-﻿  test.c
-D:\代码\data structure_code\data-structure_code\test_10.29\test_10.29\test.c(25,13): warning C4305: “=”: 从“int”到“char”截断
-D:\代码\data structure_code\data-structure_code\test_10.29\test_10.29\test.c(26,18): warning C4047: “函数”:“const char *”与“char”的间接级别不同
-D:\代码\data structure_code\data-structure_code\test_10.29\test_10.29\test.c(26,17): warning C4024: “strlen”: 形参和实参 1 的类型不同
-D:\代码\data structure_code\data-structure_code\test_10.29\test_10.29\test.c(6,6): warning C4101: “k”: 未引用的局部变量
-D:\代码\data structure_code\data-structure_code\test_10.29\test_10.29\test.c(7,6): warning C4101: “i”: 未引用的局部变量
-  test_10.29.vcxproj -> D:\代码\data structure_code\data-structure_code\test_10.29\Debug\test_10.29.exe

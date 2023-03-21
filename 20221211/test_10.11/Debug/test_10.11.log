@@ -1,6 +1,0 @@
-﻿  test.c
-D:\代码\data structure_code\data-structure_code\test_10.11\test_10.11\test.c(94): warning C4716: “test3”: 必须返回一个值
-D:\代码\data structure_code\data-structure_code\test_10.11\test_10.11\test.c(98): warning C4716: “test4”: 必须返回一个值
-D:\代码\data structure_code\data-structure_code\test_10.11\test_10.11\test.c(45): warning C4716: “test1”: 必须返回一个值
-D:\代码\data structure_code\data-structure_code\test_10.11\test_10.11\test.c(69): warning C4716: “test2”: 必须返回一个值
-  test_10.11.vcxproj -> D:\代码\data structure_code\data-structure_code\test_10.11\Debug\test_10.11.exe

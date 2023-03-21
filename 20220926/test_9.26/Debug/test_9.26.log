@@ -1,7 +1,0 @@
-﻿  SList.c
-D:\代码\data structure_code\data-structure_code\test_9.26\test_9.26\SList.c(117,28): warning C4028: 形参 1 与声明不同
-  test.c
-D:\代码\data structure_code\data-structure_code\test_9.26\test_9.26\test.c(66,20): warning C4047: “函数”:“SLTNode **”与“SLTNode *”的间接级别不同
-D:\代码\data structure_code\data-structure_code\test_9.26\test_9.26\test.c(66,15): warning C4024: “SListDestory”: 形参和实参 1 的类型不同
-  正在生成代码...
-  test_9.26.vcxproj -> D:\代码\data structure_code\data-structure_code\test_9.26\Debug\test_9.26.exe
