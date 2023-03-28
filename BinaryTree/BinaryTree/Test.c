@@ -102,8 +102,53 @@ int TreeHeight(BTNode* root)
 	int lh = TreeHeight(root->left);
 	int rh = TreeHeight(root->right);
 
-	return lh > rh ? +1 : rh + 1;
+	return lh > rh ? lh + 1 : rh + 1;
 }
+
+//求k层节点数
+int TreeKLevel(BTNode* root, int k)
+{
+	assert(k > 0);
+	if (root == NULL)
+	{
+		return 0;
+	}
+
+	if (k == 1)
+	{
+		return 1;
+	}
+
+	//转换求子树的k-1层
+	return TreeKLevel(root->left, k - 1)
+		+ TreeKLevel(root->right, k - 1);
+}
+
+
+//返回x所在的节点
+BTNode* TreeFind(BTNode* root,BTDataType x)
+{
+	if (root == NULL)
+	{
+		return NULL;
+	}
+
+	if (root->data == x)
+	{
+		return root;
+	}
+
+	//先去左树找
+	BTNode* lret = TreeFind(root->left, x);
+	if (lret)
+		return lret;
+	//左树没找到，再去右树找
+	BTNode* rret = TreeFind(root->right, x);
+	if (rret)
+		return rret;
+	return NULL;
+}
+
 
 
 
@@ -172,19 +217,26 @@ int main()
 	//printf("Tree size:%d\n", count);
 
 
-	printf("Tree size:%d\n", TreeSize(root));
-	printf("Tree size:%d\n", TreeSize(root));
-	printf("Tree size:%d\n", TreeSize(root));
+	//printf("Tree size:%d\n", TreeSize(root));
+	//printf("Tree size:%d\n", TreeSize(root));
+	//printf("Tree size:%d\n", TreeSize(root));
 
-	printf("Tree Leafsize:%d\n", TreeLeafSize(root));
-
-
+	//printf("Tree Leafsize:%d\n", TreeLeafSize(root));
 
 
 
-	printf("Tree Height:%d\n", TreeHeight(root));
 
 
+	//printf("Tree Height:%d\n", TreeHeight(root));
+
+	//printf("Tree K Level:%d\n", TreeKLevel(root, 3));
+
+
+
+	//printf("Tree K Level:%d\n", TreeKLevel(root,4));
+
+
+	printf("Tree Find:%d\n", TreeFind(root, 8));
 
 
 	//TreeHeight
